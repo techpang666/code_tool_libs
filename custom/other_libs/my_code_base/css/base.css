@@ -1,0 +1,130 @@
+
+/* CSS开局代码 BY TECHPANG TIME000000 */
+
+/* CSS先锋队 */
+* {
+    /* 清除内外边距 */
+    margin: 0;
+    padding: 0;
+    /* 內减c3盒子 */
+    box-sizing: border-box;
+    /* 规范字体及引入字体图标 */
+    font-family: "Microsoft YaHei", "SimSun", 'icomoon';
+}
+
+/* 后勤部队之body */
+body {
+    /* 撑大页面作测试用 */
+    height: 6666px;
+    /* 设置背景色 */
+    background-color: #f4f4f4;
+    /* 用于设置移动端字体大小 */
+    font-size: 12px;
+    /* 抗锯齿 文字显示更清晰 */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 后勤部队之版心宽度 */
+.w {
+    width: 1226px;
+    margin: 10px auto;
+}
+
+/* 后勤部队之a */
+a {
+    /* 处理默认颜色 */
+    color: #000;
+    /* 取消a下划线 */
+    text-decoration: none;
+    /* 取消a链接点击时背景高亮 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 后勤部队之i/em */
+em,
+i {
+    /* 取消字体倾斜 */
+    font-style: normal;
+}
+
+/* 后勤部队之li */
+li {
+    /* 去掉li的小圆点 */
+    list-style: none;
+}
+
+/* 后勤部队之input */
+input {
+    /* 清除边框 */
+    border: 0;
+    /* 清除聚焦轮廓线及还可以color和width属性 */
+    outline-style: none;
+}
+
+/* 后勤部队之button */
+button {
+    /* 取消默认边框 */
+    border: 0;
+    /* 取消聚焦边框 */
+    outline: none;
+    /* 取消默认背景色 */
+    background-color: #fff;
+    /* 鼠标经过按钮变成小手 */
+    cursor: pointer;
+}
+
+/* 后勤部队之img */
+img {
+    /* 处理图片底部空隙 */
+    vertical-align: middle;
+    /* 照顾低版本浏览器 a>img会有边框 */
+    border: 0;
+}
+
+/* 后勤部队之青龙白虎 */
+.float_left {
+    float: left;
+}
+.float_right {
+    float: right;
+}
+
+/* 后勤部队之清除浮动 */
+.clearfix::after {
+    /* 关键代码 */
+    content: "";
+    display: block;
+    clear: both;
+    /* 辅助代码 */
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    }
+.clearfix {
+    *zoom: 1;
+}
+
+/* 护城河 */
+
+/* 特种部队之隐藏 */
+.hide {
+    display: none;
+}
+
+/* 特种部队之盒子 */
+.box {
+    width: 500px; 
+    height: 300px; 
+    margin: 50px auto;
+    border: 2px solid pink; 
+}
+
+/* 特种部队之阴影 */
+.shadow {
+    box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 3px 3px 15px -4px rgba(0, 0, 0, 0.3); */
+}
+
+
+
+/* BY TECHPANG 201031 */

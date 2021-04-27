@@ -1,0 +1,39 @@
+
+/* 沈公子的自定义样式 */
+.code_base {
+    color: pink;
+    text-align: center;
+    font-size: 38px;
+}
+
+/* 护城河 */
+
+/* CSS无影部队集中营 */
+
+/* 无影部队之尖括号 */
+.test::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-left: 0;
+    border-bottom: 0;
+    /* CSS3动画之旋转 */
+    transform: rotate(45deg);
+}
+
+/* 无影部队之渐变色 */
+.jianbian_color {
+    width:100%;
+    height:100px;
+    /* 渐变色玩法 */
+    background:linear-gradient(to left,red,blue,yellow);
+}
+
+
+
+/* BY TECHPANG 201102 */

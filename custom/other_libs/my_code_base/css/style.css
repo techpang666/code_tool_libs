@@ -1,0 +1,32 @@
+
+/* CSS先锋队之字体图标声明 */
+
+/* 字体图标声明默认版 */
+/* @font-face {  
+    font-family: 'icomoon';  
+    src: url('fonts/icomoon.eot?6zo38j');  
+    src: url('fonts/icomoon.eot?6zo38j#iefix') format('embedded-opentype'),  
+         url('fonts/icomoon.ttf?6zo38j') format('truetype'),  
+         url('fonts/icomoon.woff?6zo38j') format('woff'),  
+         url('fonts/icomoon.svg?6zo38j#icomoon') format('svg');  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: block;  
+} */
+
+/* 字体图标声明路径版 出错再重新配置 */
+@font-face {  
+    font-family: 'icomoon';  
+    src: url('../fonts/icomoon.eot?6zo38j');  
+    src: url('../fonts/icomoon.eot?6zo38j#iefix') format('embedded-opentype'),  
+         url('../fonts/icomoon.ttf?6zo38j') format('truetype'),  
+         url('../fonts/icomoon.woff?6zo38j') format('woff'),  
+         url('../fonts/icomoon.svg?6zo38j#icomoon') format('svg');  
+    font-weight: normal;  
+    font-style: normal;  
+    font-display: block;  
+}
+
+
+
+/* BY TECHPANG 201102 */
